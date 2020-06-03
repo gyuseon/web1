@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	<h1>안녕하세요</h1>
+<form action="forward" method="post">
+<!--  method :get 따라가는 값이 주소에 보인다,한글이 안깨진다. 
+              post 따라가는 값이 주소에 안보인다, 한글이 깨진다 
+              --request.setCharacterEncoding("UTF-8"); 적용시 한글인 안꺠진다-->
+<label for="name">이름</label>
+<input type="text" name="name"/>
+<input type="submit" value="전송"/>
+</form>
+</body>
+</html>
